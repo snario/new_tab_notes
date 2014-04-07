@@ -1,7 +1,7 @@
 New Tab Notes
 =========
 
-!(New Tab Notes)[screenshot.png]
+![New Tab Notes](screenshot.png)
 
 What
 ======
