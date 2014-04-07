@@ -1,13 +1,13 @@
+var my_notes = localStorage.getItem("my_notes");
 
-$('#notes')[0].innerHTML = localStorage.getItem("my_notes");
-
-$('#notes')[0].focus();
+if (my_notes != "") {
+    $('#notes')[0].innerHTML = my_notes;
+} else {
+    $('#notes')[0].innerHTML = "NoteTab";
+}
 
 $('#notes').keypress(function(event){
-          //do something here
-          localStorage.setItem("my_notes", $('#notes')[0].innerHTML)
-      });
+  localStorage.setItem("my_notes", $('#notes')[0].innerHTML ? $('#notes')[0].innerHTML : "NoteTab")
+});
 
 
-
-// localStorage.setItem("lastNode", bookmarkId);
