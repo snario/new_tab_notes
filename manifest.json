@@ -10,6 +10,6 @@
         ],
 
 	"chrome_url_overrides" : {
-   		 "newtab": "note_tab.html"
+   		 "newtab": "new_tab_page.html"
   	}
 }
