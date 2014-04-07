@@ -16,7 +16,11 @@
             'mousedown .editable': 'editableClick'
         },
 
-        editableClick: etch.editableInit
+        editableClick: etch.editableInit,
+
+        save: function() {
+            alert('Not implemented.');
+        }
 
     });
 

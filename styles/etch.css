@@ -37,4 +37,4 @@
 .etch-editor-panel .etch-heading span { background-position: -360px 0; }
 .etch-editor-panel .etch-clear-formatting span { background-position: -390px 0; }
 
-.body, .title{outline:none;font-size:16px;}
+.body, .title{outline:none;font-size:16px;min-height:300px;}

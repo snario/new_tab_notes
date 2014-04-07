@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
 
-	"name": "NoteTab",
-	"description": "A minimal notepad for a new tab page. That's all.",
+	"name": "New Tab Notes",
+	"description": "A minimal notepad for a new tab page.",
         "version": "0.1",
 
 	"permissions": [
