@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "NoteTab",
+	"description": "A minimal notepad for a new tab page. That's all.",
+        "version": "0.1",
+
+	"permissions": [
+          "bookmarks", "storage", "<all_urls>"
+        ],
+
+	"chrome_url_overrides" : {
+   		 "newtab": "note_tab.html"
+  	}
+}

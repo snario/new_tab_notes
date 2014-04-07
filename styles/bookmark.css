@@ -1,0 +1,129 @@
+body {
+    font-family: "Open Sans", Helvetica, Verdana, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    -webkit-user-select: none;
+}
+
+.content {
+    padding: 5px 0 4px 0;
+}
+
+#wrap  a {
+    text-decoration: none;
+    display: block;
+    padding: 3px 15px;
+    clear: both;
+    font-weight: normal;
+    line-height: 20px;
+    color: #333333;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 1px solid transparent;
+    border-bottom: 1px solid #eee;
+}
+
+a:last-of-type {
+    border-bottom: 1px solid transparent;
+}
+
+a:focus {
+    outline: none;
+}
+
+a:hover {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.45);
+    border-bottom: 1px solid #fff;
+}
+
+.folder {
+    position: relative;
+    color: #4d6eaa;
+}
+
+.folder .caret {
+    position: absolute;
+    right: 10px;
+}
+
+.folder:not(:hover) .caret {
+    color: #ccc;
+}
+
+.link {
+    position: relative;
+    color: #555;
+    min-height: 27px;
+}
+
+.link:hover {
+    color: #222;
+}
+
+.link .favicon {
+    position: absolute;
+    right: 4px;
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.link:hover .favicon {
+    -webkit-filter: grayscale(0);
+    opacity: 1.0;
+}
+
+
+.alert {
+    color: #8b0000;
+}
+
+.titlebar {
+    position: relative;
+    padding: 6px 15px;
+    line-height: 20px;
+    border-bottom: 1px solid #cecece;
+}
+
+.titlebar .shadow {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    border: 0;
+    border-bottom: 1px solid #CECECE;
+    background: transparent;
+    box-shadow: inset 0 1px 0 #FFF, 0 0 7px rgba(0, 0, 0, 0.05), 0 2px 7px rgba(0, 0, 0, 0.17);
+}
+
+.titlebar .title {
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 15px;
+    color: #333;
+    cursor: default;
+}
+
+.titlebar .back-btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 6px 12px;
+    line-height: 20px;
+    border: 0;
+    border-left: 1px solid #e8e8e8;
+    color: #888;
+}
+
+.titlebar .back-btn[data-parent-id="-1"] {
+    display: none;
+}
+
+.titlebar .back-btn:hover {
+    cursor: pointer;
+    color: #333;
+    border-left: 1px solid #cecece;
+    box-shadow: inset 0 1px 0 #FFF, 0 0 7px rgba(0, 0, 0, 0.05), 0 2px 7px rgba(0, 0, 0, 0.17);
+}
