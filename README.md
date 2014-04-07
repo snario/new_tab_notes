@@ -1,6 +1,8 @@
 New Tab Notes
 =========
 
+!(New Tab Notes)[screenshot.png]
+
 What
 ======
 This is a chrome extension that overrides the new tab page.
