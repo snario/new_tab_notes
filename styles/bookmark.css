@@ -14,7 +14,7 @@ body {
 #wrap  a {
     text-decoration: none;
     display: block;
-    padding: 3px 15px;
+    padding: 3px 1px;
     clear: both;
     font-weight: normal;
     line-height: 20px;
@@ -63,10 +63,7 @@ a:hover {
 }
 
 .link .favicon {
-    position: absolute;
-    right: 4px;
     vertical-align: middle;
-    margin-right: 3px;
 }
 
 .link:hover .favicon {
