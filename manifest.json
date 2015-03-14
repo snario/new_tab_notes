@@ -3,7 +3,7 @@
 
 	"name": "New Tab Notes",
 	"description": "A minimal notepad for a new tab page.",
-        "version": "0.1",
+        "version": "0.2.2",
 
 	"permissions": [
           "bookmarks", "storage", "<all_urls>"
